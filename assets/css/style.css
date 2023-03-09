@@ -1,0 +1,27 @@
+.header ul li {
+    float: left;
+    display: block;
+    padding:5px;
+    margin: 20PX;
+    text-transform: uppercase;
+    background-color: ;
+}
+
+.flex-container{
+    position: relative;
+    display: inline-flex;
+    margin: 10px;
+    row-gap: 10px;
+    font: bold;
+}
+ul li{
+    list-style-type: none;
+}
+.news{
+    position: absolute;
+    left: 400px;
+    top: 350px;
+    display: inline-flex;
+    column-gap: 20px;
+     
+}
