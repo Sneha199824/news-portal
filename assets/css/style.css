@@ -1,10 +1,25 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+*{
+    font-family: poppins;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+}
+a{
+    text-decoration: none;
+}
 .header ul li {
     float: left;
     display: block;
     padding:5px;
     margin: 20PX;
     text-transform: uppercase;
-    background-color: ;
+
+    
 }
 
 .flex-container{
@@ -17,11 +32,9 @@
 ul li{
     list-style-type: none;
 }
-.news{
-    position: absolute;
-    left: 400px;
-    top: 350px;
-    display: inline-flex;
-    column-gap: 20px;
-     
+.header ul li a {
+    color: #fff;
+    
 }
+
+
