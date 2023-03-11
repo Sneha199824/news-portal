@@ -26,15 +26,41 @@ a{
     position: relative;
     display: inline-flex;
     margin: 10px;
-    row-gap: 10px;
     font: bold;
+    
 }
 ul li{
     list-style-type: none;
-}
-.header ul li a {
-    color: #fff;
     
 }
+.header ul li a {
+    color: #fff;   
+}
+.flex-box{
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 150px;
+    width: 350px;
+}
+.flex-header{
+    border: 10px solid black;
+    width: 330px;
+}
+.img{
+    width: 350px;
+    height: 250px;
+}
+#more{
+    display: none;
+}
+.footer{
+    border: 10px solid black;
+    width: 330px;
+}
+pre{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+
 
 
