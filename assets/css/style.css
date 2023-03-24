@@ -42,14 +42,15 @@ a {
 
 .contact-container {
     display: flex;
-    margin: 20px 0;
-
-
+    margin-top: 20px;
+    
+    text-align: center;
 
 }
 
 .contact {
     margin-right: 100px;
+    margin-top: 200px;
 }
 
 ul li {
@@ -232,7 +233,7 @@ pre {
         display: ;
 
     }
-}
+
 
 .header .logo {
     text-align: center;
@@ -272,8 +273,18 @@ pre {
     font-size: 16px;
 }
 
-
-
+.e-news-container {
+    flex-direction: column;
+    margin: 10px;
+    
+    
+}
+.e-news-box{
+    text-align: center;
+    margin: auto;
+    border: 5px solid black;
+    
+}
 
 
 
