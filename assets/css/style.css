@@ -9,21 +9,24 @@ h2 {
     font-size: 32px;
 }
 
-.header {
-    display: flex;
-    background-color: #0359c7;
 
-    height: 180px;
-}
 
 .nav-link {
     padding-top: 40px;
     font: bold;
 }
 
+
 .logo {
     padding-top: 40px;
     padding-left: 20px;
+}
+
+.navbar-brand span{
+
+    font-weight: 800;
+    color:#0359c7;
+    font-size:35px;
 }
 
 .service {
@@ -467,6 +470,16 @@ pre {
     height: 200px;
 }
 
+
+
+
+.Bolywood-News, .about-sec{
+
+    margin-top: 35px;
+}
+
+
+
 @media (max-width:500px) {
     .card-container {
         display: block;
@@ -629,3 +642,5 @@ pre {
         .read-more-button {
             color: black;
         }
+    }
+       
